@@ -1,11 +1,9 @@
-# Phase 1: The R Technical Stack
-# Load necessary libraries for signal processing and data structures
-library(tuneR)      # Audio import and downsampling
-library(seewave)    # Hamming window and spectrograms
-library(fftwtools)  # Fast Fourier Transform (FFT) under the hood
-library(data.table) # High-speed "Hash" database lookups
-library(fda)        # For functional object treatment (Exam Part A)
-library(TDA)        # For persistence of peaks (Exam Part B)
+library(tuneR) 
+library(seewave)    
+library(fftwtools) 
+library(data.table) 
+library(fda)        
+library(TDA)       
 
 
 # Pre-processing & Spectrogram
