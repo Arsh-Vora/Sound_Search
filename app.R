@@ -1,6 +1,3 @@
-
-# libraries
-
 options(shiny.maxRequestSize = 500 * 1024^2)
 
 library(shiny)
@@ -12,7 +9,7 @@ library(seewave)
 library(data.table)
 library(shinycssloaders)
 library(tools)
-library(DiagrammeR) # New library for the Flowchart!
+library(DiagrammeR) 
 library(visNetwork)
 
 
